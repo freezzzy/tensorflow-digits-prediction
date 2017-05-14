@@ -1,10 +1,18 @@
-## Overview
+# Overview
 
 Simple digits prediction demo based on the MNIST tutorial from the 
 [TensorFlow website](https://www.tensorflow.org/get_started/mnist/pros).
 
-## Running
+# Running
 
-1. Create the model file (run create_model.py)
-2. Add file for prediction in images folder.
-3. Predict integer from image (run prediction.py with path to image arg).
+Create the model file:
+
+```sh
+$ python3 create_model.py
+```
+
+Predict integer from image:
+
+```sh
+$ python3 prediction.py images/example.png
+```
